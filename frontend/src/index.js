@@ -16,7 +16,7 @@ import Footer from "./landing_page/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
     <Navbar />
     <Routes>
       <Route path="/" element={<HomePage />} />

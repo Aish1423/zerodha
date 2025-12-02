@@ -1,9 +1,3 @@
-# Zerodha
-Please try to implement the project on your own before proceeding to the lectures &amp; code.
-Project Architecture & Flow
-Overview
-This project is a clone of the Zerodha trading platform, consisting of three main components:
-
 Frontend (/frontend): The public-facing marketing website.
 Dashboard (/dashboard): The logged-in trading interface (Kite clone).
 Backend (/backend): The API server that powers the dashboard.
